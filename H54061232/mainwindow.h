@@ -53,7 +53,7 @@ signals:
 
 private:
     Ui::MainWindow *ui;
-    int press_pos,press_pos_2, player_point[1],player_combol_1,player_combol_2,control_N[1],*level;
+    int press_pos,press_pos_2, player_point[1],player_combol_1,player_combol_2,control_N[1],level;
     bool player2work,firsttime;
     SuoButton Suo_btn[81],player2[81];
     Map Suo_map,Map2;

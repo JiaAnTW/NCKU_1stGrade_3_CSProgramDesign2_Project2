@@ -296,11 +296,11 @@ void MainWindow::Battle(int player,int pos,int Number){
                     break;
             }
         }
-        if(player_point[0]>=(400)){
+        if(player_point[0]>=(350)){
             Victory->setStyleSheet("QPushButton{border-image: url(:/Image/victory_r)};");
             Victory->show();
         }
-        if(player_point[1]>=(400)){
+        if(player_point[1]>=(350)){
             Victory->setStyleSheet("QPushButton{border-image: url(:/Image/victory_b)};");
             Victory->show();
         }
